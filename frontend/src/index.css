@@ -1,0 +1,90 @@
+/* index.css */
+
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.full-screen-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+
+/* Home page */
+.home-page .full-screen-bg {
+  background-image: url('/src/assets/trip.jpg');
+}
+
+/* Login page */
+.login-page .full-screen-bg {
+  background-image: url('/src/assets/background.jpg');
+}
+
+/* Registration page */
+.registration-page .full-screen-bg {
+  background-image: url('/src/assets/background.jpg');
+}
+
+/* Bus Search page */
+.bus-search-page .full-screen-bg {
+  background-image: url('/src/assets/bus.jpg');
+}
+
+/* Bus List page */
+.bus-list-page .full-screen-bg {
+  background-image: url('/src/assets/bus.jpg');
+}
+
+/* Seat Selection page */
+.seat-selection-page .full-screen-bg {
+  background-image: url('/src/assets/seet.jpg');
+}
+
+/* Payment page */
+.payment-page .full-screen-bg {
+  background-image: url('/src/assets/internal.jpg');
+}
+
+/* Confirmation page */
+.confirmation-page .full-screen-bg {
+  background-image: url('/src/assets/internal.jpg');
+}
+
+/* Admin Dashboard page */
+.admin-dashboard-page .full-screen-bg {
+  background-image: url('/src/assets/background.jpg');
+}
+
+/* Add Bus page */
+.add-bus-page .full-screen-bg {
+  background-image: url('/src/assets/background.jpg');
+}
+
+/* Bus List Page (Admin) */
+.bus-list-page-admin .full-screen-bg {
+  background-image: url('/src/assets/background.jpg');
+}
+
+/* Passenger Details page */
+/* .passenger-details-page .full-screen-bg {
+  background-image: url('/src/assets/background.jpg');
+} */
+
+/* My Reservations page */
+.my-reservations-page .full-screen-bg {
+  background-image: url('/src/assets/background.jpg');
+}
